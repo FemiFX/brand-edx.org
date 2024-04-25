@@ -394,3 +394,11 @@ a.inline-link {
     color: $gray-900;
   }
 }
+
+// overrides logo size
+
+.logo img.logo {
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
