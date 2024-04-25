@@ -3,9 +3,10 @@
 
 // overrides logo size
 
-.pgn__hyperlink .logo {
+.logo-small {
   width: 180px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
+  margin-top: 1rem;
 }
 
 // Alerts
