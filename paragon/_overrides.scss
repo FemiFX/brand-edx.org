@@ -1,6 +1,12 @@
 // This file is included after all of Bootstrap. Any customization that can't
 // be made using variable definitions should be done here.
 
+// overrides logo size
+
+.pgn__hyperlink .logo {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
 
 // Alerts
 
@@ -395,10 +401,5 @@ a.inline-link {
   }
 }
 
-// overrides logo size
 
-.pgn__hyperlink .logo {
-  width: 200px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-}
 
