@@ -1,17 +1,17 @@
 {
-  "name": "@edx/brand-edx.org",
+  "name": "@FemiFX/brand-edx.org",
   "version": "1.0.0",
   "description": "A package containing brand elements and SASS themes for edx.org",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/brand-edx.org.git"
+    "url": "git+https://github.com/FemiFX/brand-edx.org.git"
   },
   "author": "edX",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/edx/brand-edx.org/issues"
+    "url": "https://github.com/FemiFX/brand-edx.org/issues"
   },
-  "homepage": "https://github.com/edx/brand-edx.org#readme",
+  "homepage": "https://github.com/FemiFX/brand-edx.org#readme",
   "publishConfig": {
     "access": "public"
   }
