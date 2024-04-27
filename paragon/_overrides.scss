@@ -399,10 +399,12 @@ a.inline-link {
 
 a.pgn__hyperlink > img.logo {
     width: 170px !important;
+    fill: white;
 }
 
 a.pgn__hyperlink > img.logo-small {
     width: 70px !important;
+    fill: white;
 }
 
 .collapsible-card .collapsible-body, .collapsible-card-lg .collapsible-body {
@@ -412,11 +414,11 @@ h1.display-2 {
   font-size: 3.875rem;
 }
 
-a.pgn__card-wrapper-image-cap.overflow-visible.horizontal {
+a > img.pgn__card-wrapper-image-cap.overflow-visible.horizontal {
   width: 100% !important;
 }
 
-header.d-flex.shadown-sm-align-items-center.learner-variant-header {
-    background-color: #0A3042;
-    color: #fff; /* Use 'color' to define text color */
+header.d-flex.shadow-sm.align-items-center.learner-variant-header {
+   color: #fff;
+   background-color: #0A3042;
 }
