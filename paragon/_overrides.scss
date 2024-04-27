@@ -397,13 +397,17 @@ a.inline-link {
   }
 }
 
+a.pgn__hyperlink > img.logo {
+    width: 170px !important;
+}
 
-img.logo-small {
-  width: 170px; 
+a.pgn__hyperlink > img.logo-small {
+    width: 70px !important;
 }
-img.logo {
-  width: 170px; 
+
+.collapsible-card .collapsible-body, .collapsible-card-lg .collapsible-body {
+    padding-left: 2.5rem;
 }
-.pgn__hyperlink.logo-small {
-width: 170px;
+h1.display-2 {
+  font-size: 3.875rem;
 }
