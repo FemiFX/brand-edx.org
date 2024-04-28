@@ -397,36 +397,48 @@ a.inline-link {
   }
 }
 
+
+//These are my overrides
+
 a.pgn__hyperlink > img.logo {
-    width: 170px !important;
-    fill: white;
+    width: 150px !important;
 }
 
 a.pgn__hyperlink > img.logo-small {
     width: 70px !important;
-    fill: white;
 }
 
 .collapsible-card .collapsible-body, .collapsible-card-lg .collapsible-body {
     padding-left: 2.5rem;
 }
+
 h1.display-2 {
-  font-size: 3.875rem;
+  font-size: 3.35rem;
 }
 
-a > img.pgn__card-wrapper-image-cap.horizontal {
-  width: 100% !important;
+.pgn__card .pgn__card-wrapper-image-cap.horizontal {
+  display: inline-block;
+  max-width: 100% !important;
+  height: inherit;
 }
 
 button#register-user:hover, button#sign-in:hover {
-    background-color: #11506e;
+    background-color: #921108;
 }
 
-// .pgn__card .pgn__card-header {
-  // display: grid;
-  // justify-content: center;
-// }
+//This aligns the svg on the row on the "learning/course" page
+div.col-auto.p-0 > svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  padding-top: 2px;
+}
 
-// .pgn__card .pgn__card-header .pgn__card-header-actions {
-  //  margin-left: inherit;
-//  }
+//This solves the div alignment on the "learning/course" page
+div.collapsible-trigger > div.row.w-100.m-0 {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+div.collapsible-trigger > div.row.w-100.m-0 > * {
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+}
+
