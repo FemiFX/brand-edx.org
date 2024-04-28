@@ -417,9 +417,16 @@ h1.display-2 {
 }
 
 a.pgn__card-wrapper-image-cap.horizontal {
-  display: inline-block;
+  display: inline-block !important;
   max-width: 100% !important;
-  height: inherit;
+  height: inherit !important;
+  flex-basis: 100% !important;
+}
+
+.pgn__card-wrapper-image-cap.horizontal .pgn__card-image-cap {
+   width: 100% !important;
+   height: 100% !important;
+   object-fit: cover !important;
 }
 
 button#register-user:hover, button#sign-in:hover {
