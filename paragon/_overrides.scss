@@ -419,7 +419,7 @@ h1.display-2 {
 a.pgn__card-wrapper-image-cap.horizontal {
   display: inline-block !important;
   max-width: 100% !important;
-  height: inherit !important;
+  max-height: 240px !important;
   flex-basis: 100% !important;
 }
 
