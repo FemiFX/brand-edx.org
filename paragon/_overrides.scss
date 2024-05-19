@@ -449,3 +449,8 @@ div.collapsible-trigger > div.row.w-100.m-0 > * {
     flex-shrink: 0 !important;
 }
 
+@media only screen and (max-width: 600px) {
+            #module-toggle {
+                display: none;
+            }
+        }
