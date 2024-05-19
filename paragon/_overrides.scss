@@ -450,7 +450,10 @@ div.collapsible-trigger > div.row.w-100.m-0 > * {
 }
 
 @media only screen and (max-width: 600px) {
-            #module-toggle {
+  h3#module-toggle.hx-underline {
                 display: none;
             }
         }
+ a.text-gray-700 {
+        display: none;
+    }
