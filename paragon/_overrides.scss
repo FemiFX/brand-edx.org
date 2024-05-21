@@ -450,10 +450,14 @@ div.collapsible-trigger > div.row.w-100.m-0 > * {
 }
 
 @media only screen and (max-width: 600px) {
-  h3#module-toggle.hx-underline {
+  h2#section-toggle {
                 display: none;
             }
         }
  a.text-gray-700 {
         display: none;
     }
+
+header > div.flex-grow-1 > a.p-4.btn {
+  display: none;
+}
