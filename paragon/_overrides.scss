@@ -463,7 +463,8 @@ header > div.flex-grow-1 > a.p-4.btn {
 }
 
 footer.footer.d-flex.border-top.py-3.px-4[role="contentinfo"] {
-   position: absolute;
+   position: fixed;
    bottom: 0;
    left: 0;
+   width: 100;
 }
